@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include notifications *.css
+recursive-include notifications *.csv
+recursive-include notifications *.html
+recursive-include notifications *.ico
+recursive-include notifications *.js
+recursive-include notifications *.json
+recursive-include notifications *.md
+recursive-include notifications *.png
+recursive-include notifications *.py
+recursive-include notifications *.svg
+recursive-include notifications *.txt
+recursive-exclude notifications *.pyc
